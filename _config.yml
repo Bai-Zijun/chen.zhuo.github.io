@@ -29,8 +29,8 @@ author:
   bio              : " "
   employer         : "中心教学楼514室"
   location         : "北京理工大学中关村校区"
-  uri              : # URL
-  email            : "chen.zhuo@bit.edu.cn" 
+  uri              : "chen.zhuo@bit.edu.cn" 
+  email            : 
 
   # Academic websites
   academia         : # URL
@@ -38,9 +38,9 @@ author:
   googlescholar    : "https://scholar.google.com/citations?hl=zh-CN&user=UlSiZZ0AAAAJ"
   inspire-hep      : # URL
   impactstory      : # URL
-  orcid            : "https://orcid.org/yourorcidurl"
+  orcid            : # URL
   semantic         : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : # URL
   researchgate     : # URL
   scopus           : # URL
 
