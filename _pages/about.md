@@ -11,46 +11,58 @@ This is the front page of a website that is powered by the [Academic Pages templ
 
  You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
 
-A data-driven personal website
+教育背景
 ======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured Markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various Markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+2019.09—2025.06：北京理工大学；推免本科直博；博士研究生；网络空间安全专业（导师：祝烈煌）  
+2015.09—2019.06：华北电力大学（北京）；本科；信息安全专业
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your Markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the Markdown files! You can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
-
-For those users that need more advanced functionality, the template also supports the following popular tools:
-- [MathJax](https://www.mathjax.org/) for mathematical equations
-- [Mermaid](https://mermaid.js.org/) for diagraming
-- [Plotly](https://plotly.com/javascript/) for plotting
-
-Getting started
+工作经历
 ======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](https://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+2025.06—至今：北京理工大学网络空间安全学院；助理研究员/博士后（团队负责人：祝烈煌）
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+学术服务
+======
+CCF 网络与系统安全专委会执行委员  
+IEEE 会员、中国电子学会会员、中国计算机学会会员、中国图象图形学学会会员  
+国际顶级期刊/会议审稿人：IEEE TIFS、TDSC、TNSE、TNSM、TVT、Globecom 等  
 
-Create content & metadata
-------
-For site content, there is one Markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a Markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each Markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+主持的科研项目
+======
+1. 国家自然科学基金委，**青年学生基础研究项目（博士研究生）**，624B2024，基于区块链智能合约的数据隐蔽传输技术研究，2025-01 至 2026-12，30 万元，在研，**主持**
+2. 中国科学技术协会，**青年人才托举工程博士生专项计划**，2025-01 至 2025-12，4 万，在研，**主持**
+3. 全国博士后管委会办公室/中国博士后科学基金会，国家资助博士后研究人员计划 B 档，GZB20250950，2025-07 至 2027-06，36 万，在研，主持
+4. 区块链与数据安全全国重点实验室，开放课题，A2560，面向区块链网络环境的可靠隐蔽信道构建技术研究，2025-09-2027-08，5 万，在研，主持
+5. 北京邮电大学，横向课题，图像车辆识别与追踪算法研究，9.5 万，在研，**主持**
 
-**Markdown generator**
+主持的科研项目
+======
+1. 2025年 北京市优秀毕业生
+2. 2025年 IEEE TrustCom **Outstanding Paper Award**
+3. 2025年 通讯作者论文获 IEEE Transactions on Network Science and Engineering 期刊**Featured articles**
+4. 2025年 **北京理工大学优秀博士学位论文**
+5. 2024/2023年 **博士研究生国家奖学金**
+6. 2024年 北京理工大学优秀博士学位论文育苗基金
+7. 2022年 CCF&ATEC大学生区块链安全隐私技术与创新应用竞赛一等奖
 
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual Markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the Markdown files, then commit and push them to the GitHub repository.
+主要科研成果
+======
+* 部分学术论文:
+1. **<u>Zhuo Chen</u>**, Liehuang Zhu, Peng Jiang, Jialing He, Zijian Zhang: A Generic Blockchain-based Steganography Framework with High Capacity via Reversible GAN, IEEE Conference on Computer Communications (INFOCOM 2024). **（CCF-A 类会议）**
+2. **<u>Zhuo Chen</u>**, Liehuang Zhu, Peng Jiang, Can Zhang, Feng Gao, Fuchun Guo: Exploring Unobservable Blockchain-based Covert Channel for Censorship-Resistant Systems, IEEE Transactions on Information Forensics and Security, 2024,19: 3380-3394. （**CCF-A 类期刊**，**SCI 一区**，**Top 期刊**，IF: 7.2）
+3. **<u>Zhuo Chen</u>**, Liehuang Zhu, Peng Jiang, Zijian Zhang, Chengxiang Si: Blockchain-based Covert Communication: A Detection Attack and Efficient Improvement, IEEE Transactions on Information Forensics and Security. （**CCF-A 类期刊**，**SCI 一区**，**Top 期刊**，IF: 7.2）
+4. **<u>Zhuo Chen</u>**, Liehuang Zhu, Peng Jiang, Jialing He, Zijian Zhang: Tackling Data Mining Risks: A Tripartite Covert Channel Merging Blockchain and IPFS, IEEE Transactions on Network Science and Engineering. （**SCI 一区期刊**，IF: 7.3）
+5. **<u>Zhuo Chen</u>**, Liehuang Zhu, Peng Jiang, Can Zhang, Feng Gao, Jialing He, Dawei Xu, Yan Zhang: Blockchain Meets Covert Communication: A Survey. IEEE Communications Surveys and Tutorials, 2022, 24(4)：2163-2192.（**SCI 一区，Top 期刊，IF: 35.6**）
+6. Jialing He, Junsen Feng, Shangwei Guo*, **<u>Zhuo Chen*</u>**, Yiwei Liu, Tao Xiang, Advancing Non-Intrusive Load Monitoring: Predicting Appliance-Level Power Consumption with Indirect Supervision[J]. IEEE Transactions on Network Science and Engineering, 2025. (**SCI 一区，IF：7.9**)
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and Markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
 
-Example: editing a Markdown file for a talk
-![Editing a Markdown file for a talk](/images/editing-talk.png)
+* 部分发明专利：
+1. 祝烈煌，**<u>陈卓</u>**，张子剑，袁祥博，沈桐舟，雷音，高峰，一种避免复用地址和提前协商私钥的区块链隐蔽通信方法，CN202310912891.7，已受理
+2. 祝烈煌，**<u>陈卓</u>**，张子剑，袁祥博，高峰，一种区块链隐蔽通信方法， CN202410430342.0，已受理
+3. 祝烈煌，刘琦，**<u>陈卓</u>**，高峰，一种基于区块链公链的时间隐蔽信道技术，ZL202310044077.8，已授权
+4. 祝烈煌，张璨，徐畅，**<u>陈卓</u>**，一种基于区块链多交易拆分的数据隐蔽传输方法，ZL202111533871.6，已授权
+5. 祝烈煌，张璨，徐畅，**<u>陈卓</u>**，一种用于区块链群组隐蔽传输的特殊交易筛选方法，ZL202210183791.0，已授权
+6. 祝烈煌，张璨，徐畅，**<u>陈卓</u>**，一种基于多区块链平台的数据隐蔽传输方法，ZL202210183802.5，已授权
 
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+* 部分软件著作权：
+1. 祝烈煌，**<u>陈卓</u>**，曹昊天，基于动态地址的区块链隐蔽通信软件，2021SR0466831，已授权（导师一作）
+2. 祝烈煌，**<u>陈卓</u>**，万凯斌，基于 ECDSA 的区块链隐蔽通信软件，2021SR0466833，已授权（导师一作）
